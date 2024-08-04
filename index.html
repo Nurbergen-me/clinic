@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="discount-banner">
+    <div class="container">
+      <div class="discount-banner__info">
+        <p class="discount-banner__percentage">10%</p>
+        <p class="discount-banner__description">
+          Дополнительная скидка 10% действующим служащим Министерства обороны
+        </p>
+        <a href="#" class="discount-banner__details-link">
+          <span class="discount-banner__details-text">Подробнее</span>
+          <img class="discount-banner__arrow-icon" src="img/button-arrow.svg" alt="Arrow icon" />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="nav-menu">
+    <div class="container">
+      <div class="nav-menu__nav-container">
+        <div class="nav-menu__location-wrapper">
+          <img loading="lazy" src="img/location-icon.svg" class="nav-menu__location-icon" alt="" />
+          <span class="nav-menu__location-text">Москва</span>
+        </div>
+        <nav class="nav-menu__links">
+          <a href="#promotions" class="nav-menu__link">Акции</a>
+          <a href="#about" class="nav-menu__link">О центре</a>
+          <a href="#results" class="nav-menu__link">Результаты</a>
+          <a href="#programs" class="nav-menu__link">Программы и цены</a>
+          <a href="#photos" class="nav-menu__link">Фото</a>
+          <a href="#videos" class="nav-menu__link">Видео</a>
+          <a href="#specialists" class="nav-menu__link">Специалисты</a>
+          <a href="#patients" class="nav-menu__link">Пациентам</a>
+          <a href="#relatives" class="nav-menu__link">Родственникам</a>
+          <a href="#reviews" class="nav-menu__link">Отзывы</a>
+          <a href="#articles" class="nav-menu__link">Статьи</a>
+          <a href="#contacts" class="nav-menu__link">Контакты</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="nav">
+    <div class="container">
+      <div class="nav__container">
+        <div class="nav__logo-container">
+          <img loading="lazy" src="img/logo.jpeg" class="nav__logo" alt="Rehabilitation Center Logo" />
+          <div class="nav__center-name">Наркологический <br /> реабилитационный <br /> центр</div>
+        </div>
+        <div class="nav__features-container">
+          <img loading="lazy" src="img/shield-icon.svg" class="nav__features-icon" alt="Features Icon" />
+          <p class="nav__features-list">Комфорт премиум-класса <br /> Эффективное лечение в центре <br /> Уникальная
+            программа восстановления</p>
+        </div>
+        <div class="nav__contact-info">
+          <div class="nav__phone-container">
+            <a href="tel:+78006795327" class="nav__phone-number">8 800 679-53-27</a>
+            <img loading="lazy" src="img/arrow-down.svg" class="nav__phone-icon" alt="" />
+          </div>
+          <p class="nav__availability">круглосуточно и анонимно</p>
+        </div>
+        <div class="nav__cta-container">
+          <a href="#" class="nav__cta-wa">
+            <img loading="lazy" src="img/wa-icon.svg" class="nav__cta-icon" alt="" />
+          </a>
+          <button class="nav__cta-button" tabindex="0">Заказать звонок</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__wrap">
+        <ul class="header__menu">
+          <li>
+            <a href="#" class="header__menu_item">
+              Диагностика и лечение
+              <img src="img/arrow-down-white.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#" class="header__menu_item">
+              Алкоголизм
+            </a>
+          </li>
+          <li>
+            <a href="#" class="header__menu_item">
+              Наркомания
+            </a>
+          </li>
+          <li>
+            <a href="#" class="header__menu_item">
+              Игромания
+            </a>
+          </li>
+          <li>
+            <a href="#" class="header__menu_item">
+              Гарантии
+            </a>
+          </li>
+          <li>
+            <a href="#" class="header__menu_item">
+              Бесплатная консультация
+            </a>
+          </li>
+        </ul>
+        <div class="header__search">
+          <img src="img/search-icon.svg" alt="search" class="header__search_icon">
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="offer">
+    <img src="img/main-bg.jpg" alt="" class="offer__background" />
+    <div class="container">
+      <div class="offer__content">
+        <div class="offer__main">
+          <p class="offer__subtitle">
+            Центр восстановления личности, <br /> психокоррекции и социального развития
+          </p>
+          <h1 class="offer__title">
+            Комплексное <br /> избавление <br /> от зависимости <br /> в Москве
+          </h1>
+          <div class="offer__features">
+            <div class="offer__feature-icons">
+              <img src="img/plus-icon.svg" alt="Feature icon" class="offer__feature-icon" />
+              <img src="img/plus-icon.svg" alt="Feature icon" class="offer__feature-icon" />
+              <img src="img/plus-icon.svg" alt="Feature icon" class="offer__feature-icon" />
+            </div>
+            <ul class="offer__feature-list">
+              <li>все условия для лечения и комфортного проживания</li>
+              <li>эффективная программа восстановления</li>
+              <li>гарантия 3 года на курс лечения</li>
+            </ul>
+          </div>
+          <form class="offer__form">
+            <div class="offer__form-inputs">
+              <input type="text" id="name" placeholder="Имя" class="offer__input" required />
+              <input type="tel" id="phone" placeholder="Телефон*" class="offer__input" required />
+            </div>
+            <div class="offer__form-footer">
+              <div class="offer__consent">
+                <input type="checkbox" id="consent" class="offer__consent-checkbox" required />
+                <label for="consent" class="offer__consent-text">
+                  Я даю свое согласие на обработку персональных данных и соглашаюсь с условиями и
+                  <a href="#" class="offer__consent-link">политикой конфиденциальности</a>
+                </label>
+              </div>
+              <button type="submit" class="btn offer__submit-btn">Консультация врача</button>
+            </div>
+          </form>
+        </div>
+        <div class="offer__stats">
+          <div class="offer__stats-inner">
+            <div class="offer__stats-content">
+              <p class="offer__stats-percentage">91%</p>
+              <p class="offer__stats-description">
+                пациентов больше <br /> не употребляют <br /> наркотики <br /> и алкоголь!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="statistics" id="statistics">
+    <div class="container">
+      <div class="statistics__wrap">
+        <div class="statistics__item">
+          <h2 class="statistics__number">5 000</h2>
+          <p class="statistics__description">спасённых жизней <br /> за 10 лет работы клиники</p>
+          <a href="#" class="statistics__link">
+            <span class="statistics__link-text">Подробнее</span>
+            <img loading="lazy" src="img/button-arrow.svg" class="statistics__link-icon" alt="" />
+          </a>
+        </div>
+
+        <div class="statistics__item">
+          <h2 class="statistics__number">100%</h2>
+          <p class="statistics__description">результат при соблюдении <br /> всех рекомендаций</p>
+          <a href="#" class="statistics__link">
+            <span class="statistics__link-text">Подробнее</span>
+            <img loading="lazy" src="img/button-arrow.svg" class="statistics__link-icon" alt="" />
+          </a>
+        </div>
+
+        <div class="statistics__item">
+          <h2 class="statistics__number">9 часов</h2>
+          <p class="statistics__description">терапии <br> каждый день</p>
+          <a href="#" class="statistics__link">
+            <span class="statistics__link-text">Подробнее</span>
+            <img loading="lazy" src="img/button-arrow.svg" class="statistics__link-icon" alt="" />
+          </a>
+        </div>
+
+        <div class="statistics__item">
+          <h2 class="statistics__number">1/6</h2>
+          <p class="statistics__description">соотношение специалистов <br /> к количеству пациентов</p>
+          <a href="#" class="statistics__link">
+            <span class="statistics__link-text">Подробнее</span>
+            <img loading="lazy" src="img/button-arrow.svg" class="statistics__link-icon" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="health-plus">
+    <div class="container">
+      <div class="health-plus_wrap">
+        <div class="health-plus__column">
+          <div class="health-plus__content">
+            <h2 class="health-plus__title">Мы поможем Вам <br /> и Вашим близким <br /> в тяжёлой ситуации</h2>
+            <p class="health-plus__description">Мы специализируемся на лечении <br /> зависимостей, а также психических
+              <br /> и психологических расстройств. <br /> <br /> ЗДОРОВЬЕ ПЛЮС — это современный <br /> комфортабельный
+              центр восстановления <br /> премиум-класса для людей с алкогольной, <br /> наркотической и игровой
+              зависимостью.</p>
+          </div>
+        </div>
+        <div class="health-plus__column">
+          <div class="health-plus__image-wrapper">
+            <img loading="lazy" src="img/team.png" class="health-plus__background-image" alt="" />
+            <img loading="lazy" src="img/play-big-icon.svg" class="health-plus__play" alt="Health Plus Logo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="about__title">
+        У нас:
+      </h2>
+      <div class="about__wrap">
+        <div class="about__column">
+          <div class="about__item">
+            <img src="img/plus-icon.svg" class="about__icon">
+            <div class="about__text">
+              Созданы все условия для комфортного <br> и эффективного лечения.
+            </div>
+          </div>
+          <div class="about__item">
+            <img src="img/plus-icon.svg" class="about__icon">
+            <div class="about__text">
+              Используют инновационную технологию распознавания и оценки динамики лечения, что повышает эффективность и
+              гарантирует 100% результат лечения при соблюдении всех рекомендаций программы.
+            </div>
+          </div>
+          <div class="about__item">
+            <img src="img/plus-icon.svg" class="about__icon">
+            <div class="about__text">
+              С каждым пациентом работает 6 специалистов — психиатр-нарколог, клинические психологи, психолог-педагог,
+              семейный психолог, консультанты по химической зависимости.
+            </div>
+          </div>
+          <div class="about__item">
+            <img src="img/plus-icon.svg" class="about__icon">
+            <div class="about__text">
+              Круглосуточное наблюдение специалистов.
+            </div>
+          </div>
+          <div class="about__item">
+            <img src="img/plus-icon.svg" class="about__icon">
+            <div class="about__text">
+              Личная и групповая терапия, арт-терапия.
+            </div>
+          </div>
+        </div>
+        <div class="about__column">
+          <div class="about__item">
+            <img src="img/plus-icon.svg" class="about__icon">
+            <div class="about__text">
+              Иппотерапия (лечебная верховая езда), занятия йогой.
+            </div>
+          </div>
+          <div class="about__item">
+            <img src="img/plus-icon.svg" class="about__icon">
+            <div class="about__text">
+              Охраняемая закрытая территория.
+            </div>
+          </div>
+          <div class="about__item">
+            <img src="img/plus-icon.svg" class="about__icon">
+            <div class="about__text">
+              Всё для качественного досуга: футбольное и баскетбольное поле, летний бассейн с фонтаном, беседки,
+              мангальная
+              зона, декоративный пруд, свой выход в лес.
+            </div>
+          </div>
+          <div class="about__item">
+            <img src="img/plus-icon.svg" class="about__icon">
+            <div class="about__text">
+              Диетолог и возможность подбора индивидуального меню.
+            </div>
+          </div>
+          <div class="about__item">
+            <img src="img/plus-icon.svg" class="about__icon">
+            <div class="about__text">
+              Тренажёрный зал, закрытый бассейн, финская баня.
+            </div>
+          </div>
+          <div class="about__item">
+            <img src="img/plus-icon.svg" class="about__icon">
+            <div class="about__text">
+              2-х, 3-х, 4-х местные номера с удобствами.
+            </div>
+          </div>
+          <div class="about__item">
+            <img src="img/plus-icon.svg" class="about__icon">
+            <div class="about__text">
+              Услуги парикмахера и косметолога.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about__btns">
+        <button class="btn about_btn">
+          Бесплатная консультация
+        </button>
+        <button class="btn btn-secondary about_btn">
+          Бесплатная консультация
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__wrap">
+        <div class="contact__column">
+          <div class="contact__info-box">
+            <img src="img/shield.svg" alt="shield" class="contact__shield">
+            <h3 class="contact__title">
+              Мы делаем упор на результат, <br /> качество и безопасность <br /> наших услуг,
+              ведь это <br /> ВАЖНЕЕ всего!
+            </h3>
+            <button class="btn contact__btn">
+              Связаться с врачом
+            </button>
+          </div>
+        </div>
+        <div class="contact__column">
+          <div class="contact__support-box">
+            <div class="contact__support-content">
+              <p class="contact__support-text">
+                Позвоните по телефону <br /> горячей линиии верните <br /> спокойную
+                жизнь себе <br /> и своим близким <br /> прямо сейчас
+              </p>
+              <img loading="lazy"
+                src="img/support-icon.svg"
+                class="contact__support-image" alt="Support illustration" />
+            </div>
+            <div class="contact__hotline">
+              <img loading="lazy"
+                src="img/wa-white-icon.svg"
+                class="contact__hotline-icon" alt="Hotline icon" />
+              <div class="contact__hotline-info">
+                <p class="contact__hotline-number">8 800 679-53-27</p>
+                <p class="contact__hotline-description">бесплатно и круглосуточно в Москве</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="services__title">
+        Программы лечения и реабилитации
+      </h2>
+      <div class="services__wrap">
+        <div class="services__card">
+          <img loading="lazy" src="img/service-1.png" class="services__image" alt="Снятие острого состояния" />
+          <div class="services__content">
+            <h3 class="services__name">Снятие <br /> острого состояния</h3>
+            <p class="services__description">
+              Мы применяем современные <br /> и безопасные методики вывода <br /> из запоя и снятия ломки. <br /> <br />
+              Пациент быстро чувствует <br /> облегчение, его физическое <br /> состояние улучшается благодаря <br />
+              процессу детоксикации — выводу <br /> отравляющих веществ из организма. <br /> Нормализуется работа всех жизненно- <br />
+              важных систем, восстанавливается <br /> сон и аппетит.
+            </p>
+            <p class="services__price">
+              <span class="services__price-label">цена от</span>
+              <span class="services__price-value">335 000 руб.</span>
+            </p>
+            <button class="services__cta" role="button" tabindex="0">
+              <span class="services__cta-text">Оставить заявку</span>
+              <img loading="lazy" src="img/button-arrow.svg" class="services__cta-icon" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="services__card">
+          <img loading="lazy" src="img/service-2.png" class="services__image" alt="План лечения" />
+          <div class="services__content">
+            <h3 class="services__name">План лечения</h3>
+            <p class="services__description">
+              Для того, чтобы выстроить <br /> дальнейшую программу <br /> восстановления, мы направляем <br />
+              пациентов в собственную <br /> наркологическую клинику <br /> для обследования и диагностики. <br /> <br />
+              В случае необходимости мы <br /> также организуем экстренную <br /> госпитализацию в клинику <br /> в любое время.
+            </p>
+            <p class="services__price">
+              <span class="services__price-label">цена от</span>
+              <span class="services__price-value">335 000 руб.</span>
+            </p>
+            <button class="services__cta">
+              <span class="services__cta-text">Оставить заявку</span>
+              <img loading="lazy" src="img/button-arrow.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="services__card">
+          <img loading="lazy" src="img/service-3.png" class="services__image" alt="Личная и групповая психотерапия" />
+          <div class="services__content">
+            <h3 class="services__name">Личная и групповая <br /> психотерапия</h3>
+            <p class="services__description">
+              Мы считаем, что главное <br /> в лечении — это индивидуальный <br /> подход. Наши специалисты <br />
+              рассматривают каждый случай <br /> заболевания отдельно, не применяя <br /> шаблонных методов.
+            </p>
+            <p class="services__price">
+              <span class="services__price-label">цена от</span>
+              <span class="services__price-value">335 000 руб.</span>
+            </p>
+            <button class="services__cta" role="button" tabindex="0">
+              <span class="services__cta-text">Оставить заявку</span>
+              <img loading="lazy" src="img/button-arrow.svg" class="services__cta-icon" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="services__card">
+          <img loading="lazy" src="img/service-1.png" class="services__image" alt="Снятие острого состояния" />
+          <div class="services__content">
+            <h3 class="services__name">Снятие <br /> острого состояния</h3>
+            <p class="services__description">
+              Мы применяем современные <br /> и безопасные методики вывода <br /> из запоя и снятия ломки. <br /> <br />
+              Пациент быстро чувствует <br /> облегчение, его физическое <br /> состояние улучшается благодаря <br />
+              процессу детоксикации — выводу <br /> отравляющих веществ из организма. <br /> Нормализуется работа всех жизненно- <br />
+              важных систем, восстанавливается <br /> сон и аппетит.
+            </p>
+            <p class="services__price">
+              <span class="services__price-label">цена от</span>
+              <span class="services__price-value">335 000 руб.</span>
+            </p>
+            <button class="services__cta" role="button" tabindex="0">
+              <span class="services__cta-text">Оставить заявку</span>
+              <img loading="lazy" src="img/button-arrow.svg" class="services__cta-icon" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="services__card">
+          <img loading="lazy" src="img/service-2.png" class="services__image" alt="План лечения" />
+          <div class="services__content">
+            <h3 class="services__name">План лечения</h3>
+            <p class="services__description">
+              Для того, чтобы выстроить <br /> дальнейшую программу <br /> восстановления, мы направляем <br />
+              пациентов в собственную <br /> наркологическую клинику <br /> для обследования и диагностики. <br /> <br />
+              В случае необходимости мы <br /> также организуем экстренную <br /> госпитализацию в клинику <br /> в любое время.
+            </p>
+            <p class="services__price">
+              <span class="services__price-label">цена от</span>
+              <span class="services__price-value">335 000 руб.</span>
+            </p>
+            <button class="services__cta">
+              <span class="services__cta-text">Оставить заявку</span>
+              <img loading="lazy" src="img/button-arrow.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="services__card">
+          <img loading="lazy" src="img/service-3.png" class="services__image" alt="Личная и групповая психотерапия" />
+          <div class="services__content">
+            <h3 class="services__name">Личная и групповая <br /> психотерапия</h3>
+            <p class="services__description">
+              Мы считаем, что главное <br /> в лечении — это индивидуальный <br /> подход. Наши специалисты <br />
+              рассматривают каждый случай <br /> заболевания отдельно, не применяя <br /> шаблонных методов.
+            </p>
+            <p class="services__price">
+              <span class="services__price-label">цена от</span>
+              <span class="services__price-value">335 000 руб.</span>
+            </p>
+            <button class="services__cta" role="button" tabindex="0">
+              <span class="services__cta-text">Оставить заявку</span>
+              <img loading="lazy" src="img/button-arrow.svg" class="services__cta-icon" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="warranty" id="warranty">
+    <div class="container">
+      <h2 class="warranty__title">
+        Гарантируем эффективность <br>
+        и безопасность лечения
+      </h2>
+      <div class="warranty__wrap">
+        <div class="warranty__item green">
+          <div class="warranty__circle">
+            <img src="img/warranty-1.svg" alt="warranty" class="warranty__img">
+          </div>
+          <h4 class="warranty__name">
+            Уникальная программа <br>
+            компьютерной диагностики
+          </h4>
+          <p class="warranty__text">
+            Мы используем многофункциональную <br>
+            компьютерную диагностическую систему <br>
+            «Психометрик-эксперт», не имеющую аналогов в сфере 
+            лечения зависимости. Компьютерная диагностическая 
+            система отслеживает динамику выздоровления пациентов 
+            на всех этапах лечения и помогает вносить необходимые
+            коррективы, что в разы повышает эффективность лечения
+          </p>
+          <a href="#" class="link warranty__link">
+            <span>
+              Подробнее
+            </span>
+            <img src="img/button-arrow.svg" alt="">
+          </a>
+        </div>
+        <div class="warranty__item purple">
+          <div class="warranty__circle">
+            <img src="img/warranty-2.svg" alt="warranty" class="warranty__img">
+          </div>
+          <h4 class="warranty__name">
+            Эффективное лечение <br>
+            и комфорт
+          </h4>
+          <p class="warranty__text">
+            Лечение должно быть не только <br>
+            эффективным, но и комфортным. Наши <br>
+            специалисты — это профессионалы высокого 
+            уровня со стажем работы с зависимыми от 7 лет. 
+            Наши условия — комфортабельное размещение
+            класса люкс с соответствующим сервисом: 
+            индивидуальная программа питания, программы 
+            восстановления физического и душевного здоровья
+          </p>
+        </div>
+        <div class="warranty__item yellow">
+          <div class="warranty__circle">
+            <img src="img/warranty-3.svg" alt="warranty" class="warranty__img">
+          </div>
+          <h4 class="warranty__name">
+            Договор и сертификаты
+          </h4>
+          <p class="warranty__text">
+            Деятельность центра полностью легальна <br>
+            и прозрачна. Мы работаем по договору <br>
+            и имеем все необходимые разрешения <br>
+            и сертификаты для нашей деятельности
+          </p>
+          <a href="#" class="link warranty__link">
+            <span>
+              Подробнее
+            </span>
+            <img src="img/button-arrow.svg" alt="">
+          </a>
+        </div>
+        <div class="warranty__item red">
+          <div class="warranty__circle">
+            <img src="img/warranty-4.svg" alt="warranty" class="warranty__img">
+          </div>
+          <h4 class="warranty__name">
+            Абсолютная конфиденциальность
+          </h4>
+          <p class="warranty__text">
+            Мы бережно храним личные данные наших <br>
+            пациентов, и вы можете быть уверены, <br>
+            что о вашей проблеме никто не узнаетя
+          </p>
+          <div class="warranty__contacts">
+            <div class="warranty__contacts-phone">
+              <label>
+                позвоните нам
+              </label>
+              <div class="phone">
+                <img src="img/wa-icon.svg" alt="whatsapp">
+                <span>
+                  8 800 679-53-27
+                </span>
+              </div>
+            </div>
+            <button class="btn warranty__contacts-btn">
+              Оставить заявку
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="video" id="video">
+    <div class="container">
+      <div class="video__wrap">
+        <img src="img/video-bg-form.svg" alt="form" class="video__bg">
+        <div class="video__item">
+          <h2 class="video__title">
+            Видеоэкскурсия <br>
+            по центру <br>
+            «Здоровье плюс»
+          </h2>
+        </div>
+        <div class="video__content">
+          <img src="img/video.png" alt="">
+          <button class="btn video__btn">
+            <img src="img/play-icon.svg" alt="play">
+            <span>Смотреть видео</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="stages" id="stages">
+    <div class="container">
+      <h2 class="stages__title">
+        Этапы лечения
+      </h2>
+      <p class="stages_desc">
+        4 основных шага в новую жизнь без наркотиков или алкоголя
+      </p>
+      <div class="stages__wrap">
+        <div class="stages__item">
+          <div class="stages__left">
+            <div class="stages__left-text">
+              ШАГ
+            </div>
+            <div class="stages__left-number green-gradient">
+              1
+            </div>
+          </div>
+          <div class="stages__content">
+            <h4 class="stages__name">
+              Адаптационный этап
+            </h4>
+            <p class="stages__text">
+              Цели и задачи этого этапа — адаптация пациента к режиму реабилитационного центра, 
+              вовлечение в реабилитационный процесс, психологическая и клиническая диагностика состояния
+            </p>
+            <a href="#" class="link stages__link">
+              <span>
+                Оставить заявку на консультацию
+              </span>
+              <img src="img/button-arrow.svg" alt="arrow">
+            </a>
+          </div>
+        </div>
+        <div class="stages__item">
+          <div class="stages__left">
+            <div class="stages__left-text purple">
+              ШАГ
+            </div>
+            <div class="stages__left-number purple-gradient">
+              2
+            </div>
+          </div>
+          <div class="stages__content purple-gradient">
+            <h4 class="stages__name">
+              Интеграционный этап
+            </h4>
+            <p class="stages__text">
+              Установление рабочего контакта с пациентом. На этом этапе начинается серьезная психокоррекционная 
+              работа: разбор эмоционального состояния, изучение концепции болезни, борьба с отрицанием, 
+              формирование навыков противостояния стрессу и тяге к веществам, управления своими чувствами 
+              и поведением, самостоятельной проработки своего внутреннего состояния
+            </p>
+          </div>
+        </div>
+        <div class="stages__item">
+          <div class="stages__left">
+            <div class="stages__left-text yellow">
+              ШАГ
+            </div>
+            <div class="stages__left-number yellow-gradient">
+              3
+            </div>
+          </div>
+          <div class="stages__content yellow-gradient">
+            <h4 class="stages__name">
+              Стабилизационный этап
+            </h4>
+            <p class="stages__text">
+              Психотерапевтическая работа направлена на коррекцию межличностных проблем и углубленный 
+              анализ своих действий, а также закрепление уже полученных навыков управления своим 
+              эмоциональным состоянием. Основная цель этого этапа — приобретение личностной устойчивости 
+              и зрелости, позволяющей функционировать в обществе без употребления наркотиков и алкоголя 
+              или других способов ухода от реальности
+            </p>
+            <a href="#" class="link stages__link">
+              <span>
+                Подробнее
+              </span>
+              <img src="img/button-arrow.svg" alt="arrow">
+            </a>
+          </div>
+        </div>
+        <div class="stages__item">
+          <div class="stages__left">
+            <div class="stages__left-text red">
+              ШАГ
+            </div>
+            <div class="stages__left-number red-gradient">
+              4
+            </div>
+          </div>
+          <div class="stages__content red-gradient">
+            <h4 class="stages__name">
+              Постреабилитационный этап
+            </h4>
+            <p class="stages__text">
+              Направлен на профилактику срывов и рецидивов. Пациент продолжает работать по программе, но уже 
+              вне стен реабилитационного центра, возвращается к обычной жизни и учится применять все инструменты 
+              программы в условии социума при поддержке специалстов центра
+            </p>
+            <a href="#" class="link stages__link">
+              <span>
+                Оставить заявку на консультацию
+              </span>
+              <img src="img/button-arrow.svg" alt="arrow">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
