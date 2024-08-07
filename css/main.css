@@ -2007,15 +2007,15 @@ p {
   max-width: 510px;
 }
 
-.warranty {
+.cert {
   padding: 80px 0 60px;
 }
 
-.warranty__title {
+.cert__title {
   margin-bottom: 21px;
 }
 
-.warranty__wrap {
+.cert__wrap {
   border-radius: 10px;
   background: #F7F7F7;
   display: flex;
@@ -2024,7 +2024,7 @@ p {
   padding: 74px 58px 91px;
 }
 
-.warranty__img {
+.cert__img {
   position: absolute;
   left: -44px;
   top: -41px;
@@ -2033,47 +2033,47 @@ p {
   pointer-events: none;
 }
 
-.warranty__img img {
+.cert__img img {
   max-width: 100%;
 }
 
-.warranty__form {
+.cert__form {
   max-width: 565px;
   margin-left: auto;
 }
 
-.warranty__text {
+.cert__text {
   margin-bottom: 40px;
   font-size: 17px;
 }
 
-.warranty__row {
+.cert__row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   margin-top: 20px;
 }
 
-.warranty__input {
+.cert__input {
   border-radius: 600px;
   border: 1px solid #CBCBCB;
   background: #FFF;
   padding: 20px 20px 22px 28px
 }
 
-.warranty__btn {
+.cert__btn {
   border-radius: 600px;
   background: linear-gradient(180deg, #FFE975 10.83%, #FFCF53 100%);
   box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.07), 0px 41.778px 33.422px 0px rgba(0, 0, 0, 0.05), 0px 22.336px 17.869px 0px rgba(0, 0, 0, 0.04), 0px 12.522px 10.017px 0px rgba(0, 0, 0, 0.04), 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 2.767px 2.214px 0px rgba(0, 0, 0, 0.02);
 }
 
-.warranty__btn-green {
+.cert__btn-green {
   border-radius: 600px;
   background: linear-gradient(180deg, #C6FD84 10.83%, #77C01F 100%);
   box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.07), 0px 41.778px 33.422px 0px rgba(0, 0, 0, 0.05), 0px 22.336px 17.869px 0px rgba(0, 0, 0, 0.04), 0px 12.522px 10.017px 0px rgba(0, 0, 0, 0.04), 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 2.767px 2.214px 0px rgba(0, 0, 0, 0.02);
 }
 
-.warranty__credits {
+.cert__credits {
   color: rgba(55, 55, 55, 0.71);
   font-family: Muller;
   font-size: 11px;
@@ -2084,12 +2084,12 @@ p {
   gap: 4px;
 }
 
-.warranty__credits input {
+.cert__credits input {
   width: 28px;
   height: 28px;
 }
 
-.warranty__credits a {
+.cert__credits a {
   color: rgba(55, 55, 55, 0.71);
   font-family: Muller;
   font-size: 11px;
