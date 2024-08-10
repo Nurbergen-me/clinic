@@ -3,22 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Здоровье плюс</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <div class="discount-banner">
     <div class="container">
-      <div class="discount-banner__info">
-        <p class="discount-banner__percentage">10%</p>
-        <p class="discount-banner__description">
-          Дополнительная скидка 10% действующим служащим Министерства обороны
-        </p>
-        <a href="#" class="discount-banner__details-link">
-          <span class="discount-banner__details-text">Подробнее</span>
-          <img class="discount-banner__arrow-icon" src="img/button-arrow.svg" alt="Arrow icon" />
-        </a>
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="discount-banner__item">
+              <p class="discount-banner__percentage">10%</p>
+              <p class="discount-banner__description">
+                Дополнительная скидка 10% действующим служащим Министерства обороны
+              </p>
+              <a href="#" class="discount-banner__details-link">
+                <span  class="discount-banner__details-text">Подробнее</span>
+                <img class="discount-banner__arrow-icon" src="img/button-arrow.svg" alt="Arrow icon" />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="discount-banner__item">
+              <p class="discount-banner__percentage">10%</p>
+              <p class="discount-banner__description">
+                Дополнительная скидка 10% действующим служащим Министерства обороны
+              </p>
+              <a href="#" class="discount-banner__details-link">
+                <span  class="discount-banner__details-text">Подробнее</span>
+                <img class="discount-banner__arrow-icon" src="img/button-arrow.svg" alt="Arrow icon" />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="discount-banner__item">
+              <p class="discount-banner__percentage">10%</p>
+              <p class="discount-banner__description">
+                Дополнительная скидка 10% действующим служащим Министерства обороны
+              </p>
+              <a href="#" class="discount-banner__details-link">
+                <span  class="discount-banner__details-text">Подробнее</span>
+                <img class="discount-banner__arrow-icon" src="img/button-arrow.svg" alt="Arrow icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev swiper1-prev"></div>
+        <div class="swiper-button-next swiper1-next"></div>
       </div>
     </div>
   </div>
@@ -2222,5 +2257,7 @@
       </div>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

@@ -206,7 +206,8 @@ p {
 }
 
 .container {
-  max-width: 1140px;
+  width: 1140px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -252,6 +253,32 @@ p {
   width: 11px;
 }
 
+.swiper {
+  width: 100%;
+  position: relative;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #fff;
+  height: 8px;
+  width: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100%;
+}
+.swiper-button-prev::after, .swiper-button-next::after {
+  content: "";
+  background: url("../img/caret-left-icon.svg") no-repeat center;
+  width: 4px;
+  height: 8px;
+}
+
+.swiper-button-next::after {
+  background: url("../img/caret-right-icon.svg") no-repeat center;
+}
+
 .btn-secondary {
   border-radius: 600px;
   border: 3px solid #FFE55B;
@@ -272,28 +299,29 @@ p {
   color: rgba(131, 174, 80, 1);
 }
 
-.discount-banner__info {
-  align-self: stretch;
+.discount-banner__item {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 20px;
   height: 34px;
+  width: 100%;
   overflow: hidden;
 }
 
 .discount-banner__percentage {
+  color: #83AE50;
   align-self: stretch;
   font: 200 49px Muller, sans-serif;
 }
 
 .discount-banner__description {
+  font-size: 14px;
   font-weight: 400;
   text-align: center;
   color: rgba(74, 74, 74, 1);
-  align-self: stretch;
-  flex-grow: 1;
-  flex-basis: auto;
   margin: auto 0;
+  width: fit-content;
 }
 
 .discount-banner__details-link {
@@ -316,16 +344,12 @@ p {
   object-position: center;
   width: 11px;
 }
-
-.nav {
-  padding-bottom: 18px;
-  border-top: 1px solid #DEDEDE;
-}
-
 .nav__container {
   display: flex;
   justify-content: space-between;
-  margin-top: 17px;
+  border-top: 1px solid #DEDEDE;
+  padding-top: 17px;
+  padding-bottom: 16px;
   width: 100%;
   gap: 20px;
 }
@@ -369,8 +393,10 @@ p {
 }
 
 .nav__features-list {
-  flex-grow: 1;
-  flex-basis: auto;
+  color: #4A4A4A;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.07
 }
 
 .nav__contact-info {
@@ -401,6 +427,7 @@ p {
 
 .nav__availability {
   font-size: 14px;
+  line-height: 1em;
   font-weight: 300;
 }
 
@@ -429,7 +456,13 @@ p {
   font-family: Muller, sans-serif;
   border-radius: 600px;
   background-color: rgba(255, 229, 91, 1);
-  padding: 16px 26px;
+  width: 170px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 500;
   border: none;
   cursor: pointer;
 }
